@@ -8,10 +8,14 @@ session_start();
   <meta charset="UTF-8">
   <title>Parranchos | RN</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
   <meta name="description" content="Complexo de lazer beira-mar com diversos atrativos" />
   <meta name="author" content="Andre Luis Fernandes"/>
+  <meta name="reply-to" content="deco.luisfernandes@gmail.com">
+  <meta name="generator" content="Visual Studio Code">
   <meta name="language" content="pt-br">
-  <meta name="robots" content="noindex,nofollow" />
+  <meta name="robots" content="index,nofollow" />
+  <meta name="googlebot" content="noindex,nofollow">
   <meta name="keywords" content="mergulho,natal,Parranchos"/>
 
   <!-- Favicons -->
