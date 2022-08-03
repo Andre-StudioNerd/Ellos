@@ -1,3 +1,3 @@
 <?php
-header('Location: https://teste.studionerd.com.br/teste1/');
+header('Location: https://teste.studionerd.com.br/ellos/');
 ?>
