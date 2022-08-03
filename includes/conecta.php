@@ -1,5 +1,5 @@
 <?php
-$servername = "br384.hostgator.com.br";
+$servername = "localhost";
 $database = "studi_reserva";
 $username = "studi_root";
 $password = "bruna80";
