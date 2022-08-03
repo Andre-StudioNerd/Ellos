@@ -50,7 +50,7 @@ session_start();
       </div>
        <!-- ======= Chamada telefone ======= -->
       <div class="phone">
-        <p><a href="tel:+559999999999" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i> (99) 9999-9999</a></p>
+        <p><a href="tel:+559999999999" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i> (91) 9999-9999</a></p>
       </div>
     
 
