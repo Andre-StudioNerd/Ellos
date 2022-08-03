@@ -89,7 +89,7 @@ session_start();
     <!-- ======= Cadastro form ======= -->
     <div class="col-xl-6">
       
-    <form action="../teste1/includes/cadastro.php" method="POST" class="form">
+    <form action="../ellos/includes/cadastro.php" method="POST" class="form">
   <label class="form_title">Faça sua reserva</label>
   <p type="Name:"><input placeholder="Nome" name="nome"></input></p>
   <p type="Email:"><input placeholder="E-mail" name="email"></input></p>
