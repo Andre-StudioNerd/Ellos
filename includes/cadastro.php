@@ -15,7 +15,7 @@ $inserir= "INSERT INTO reserva (nome,email,telefone, mensagem) VALUES ('$nome','
 //executando query
 if(mysqli_query($conn,$inserir)){
    
-  $_SESSION['msg']="<div class='aviso'<h3>Obrigado, em breve retornaremos um contato para confirmação.</h3></div>";
+  $_SESSION['msg']="<div class='aviso'<h3><i class='fa fa-exclamation-circle' aria-hidden='true'></i>Obrigado, em breve retornaremos um contato para confirmação.</h3></div>";
  header("Location: https://teste.studionerd.com.br/ellos/");
     
 
