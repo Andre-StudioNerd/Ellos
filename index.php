@@ -7,10 +7,10 @@ session_start();
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+  <meta name="description" content="Complexo de lazer beira-mar com diversos atrativos" />
   <title>Parranchos | RN</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="keywords" content="mergulho,natal,Parranchos"/>
 
   <!-- Favicons -->
   <link href="assets/img/mara_icon.png" rel="icon">
@@ -110,7 +110,7 @@ session_start();
           <div class="content col-xl-5 d-flex align-items-stretch" data-aos="fade-up">
             <div class="content">
               <h3>Parrachos Praia Clube</h3>
-              <img src="assets/img/maracajau_deck.jpg" class="img-fluid img-style" alt="deck">
+              <img src="assets/img/maracajau_deck.jpg" class="img-fluid img-style" alt="Parranchos">
               <p>
               É um complexo de lazer beira-mar com diversos atrativos como piscinas, áreas exclusivas para day use,  passeios de quadriciclo, catamarã, seabob (equipamento exclusivo no Brasil), mergulho livre, mergulho com cilindro e muito mais.
               
