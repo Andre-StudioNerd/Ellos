@@ -15,7 +15,6 @@ session_start();
   <meta name="generator" content="Visual Studio Code">
   <meta name="language" content="pt-br">
   <meta name="robots" content="index,nofollow" />
-  <meta name="googlebot" content="noindex,nofollow">
   <meta name="keywords" content="mergulho,natal,Parranchos"/>
 
   <!-- Favicons -->
