@@ -7,7 +7,7 @@ $password = "melina80";
 $conn = mysqli_connect($servername, $username, $password, $database);
 // Checka conexão
 if (!$conn) {
-    die("Falha: " . mysqli_connect_error());
+    die("Erro: " . mysqli_connect_error());
 }
 
 ?>
