@@ -8,6 +8,8 @@ session_start();
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta name="description" content="Complexo de lazer beira-mar com diversos atrativos" />
+  <meta name="author" content="Andre Luis Fernandes"/>
+  <meta name="language" content="pt-br">
   <title>Parranchos | RN</title>
   <meta name="robots" content="noindex,nofollow" />
   <meta name="keywords" content="mergulho,natal,Parranchos"/>
