@@ -35,12 +35,18 @@ session_start();
 
 
    <!-- Jquery Arquivo-->
+   
+   
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
   <!-- CSS Arquivo-->
   <link href="assets/css/style.css" rel="stylesheet">
   <!-- JS Arquivo-->
-  <script src="assets/js/valida_form.js" type="text/javascript"></script>
+  <script>
+
+  </script>
   
 </head>
 
@@ -88,11 +94,11 @@ session_start();
     <!-- ======= Cadastro form ======= -->
     <div class="col-xl-6">
       
-    <form action="../ellos/includes/cadastro.php" method="POST" class="form" name="form" id="form">
+    <form action="../ellos/includes/cadastro.php" method="POST" class="form" name="form" id="form_contato">
   <label class="form_title">Faça sua reserva</label>
-  <p type="text"><input placeholder="Nome" id="txNome" value="" name="nome"></input></p>
-  <p type="text"><input placeholder="E-mail" id="txEmail" value="" name="email"></input></p>
-  <p type="text"><input placeholder="Telefone" id="txTelefone" value="" name="telefone"></input></p>
+  <p type="text"><input placeholder="Nome" id="txNome" value="" name="nome" value=""></input></p>
+  <p type="text"><input placeholder="E-mail" id="txEmail" value="" name="email" value=""></input></p>
+  <p type="text"><input placeholder="Telefone" id="txTelefone" value="" name="telefone" value=""></input></p>
   <p type="text"><input placeholder="Mensagem" name="mensagem"></input></p>
   <button type="submit" id="enviar" name="enviar" value="Enviar">Enviar</button>
   
@@ -426,6 +432,7 @@ session_start();
         $(this).parent().parent().find('.faq-body').slideToggle();
       });
     </script>
+    
 </body>
 
 </html>
