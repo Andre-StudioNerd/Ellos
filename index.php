@@ -94,10 +94,10 @@ session_start();
       
     <form action="../ellos/includes/cadastro.php" method="POST" class="form" name="form" id="form_contato">
   <label class="form_title">Faça sua reserva</label>
-  <p type="text"><input placeholder="Nome" id="txNome"  required maxlength="60" value="" name="nome" value=""></input></p>
-  <p type="email"><input placeholder="E-mail" id="txEmail" required maxlength="60" value="" name="email" value=""></input></p>
-  <p type="tel"><input placeholder="Telefone" id="telefone" required maxlength="20" value="" name="telefone" value=""></input></p>
-  <p type="text"><input placeholder="Mensagem" id="txMensagem" required maxlength="400" name="mensagem"></input></p>
+  <p><input type="text" placeholder="Nome" id="txNome"  required minlength="6" maxlength="60" value="" name="nome" value=""></input></p>
+  <p><input type="email" placeholder="E-mail" id="txEmail" minlength="6" maxlength="60" value="" name="email"  value=""></input></p>
+  <p><input type="tel" placeholder="Telefone" id="telefone" required minlength="8" value="" name="telefone" value=""></input></p>
+  <p><input type="text" placeholder="Mensagem" id="txMensagem" required maxlength="400" name="mensagem"></input></p>
   <button type="submit" id="enviar" name="enviar" value="Enviar">Enviar</button>
   
 </form>
