@@ -96,7 +96,7 @@ session_start();
   <label class="form_title">Faça sua reserva</label>
   <p type="text"><input placeholder="Nome" id="txNome"  required maxlength="60" value="" name="nome" value=""></input></p>
   <p type="email"><input placeholder="E-mail" id="txEmail" required maxlength="60" value="" name="email" value=""></input></p>
-  <p type="tel"><input placeholder="Telefone" id="txTelefone" required maxlength="20" value="" name="telefone" value=""></input></p>
+  <p type="tel"><input placeholder="Telefone" id="telefone" required maxlength="20" value="" name="telefone" value=""></input></p>
   <p type="text"><input placeholder="Mensagem" id="txMensagem" required maxlength="400" name="mensagem"></input></p>
   <button type="submit" id="enviar" name="enviar" value="Enviar">Enviar</button>
   
@@ -421,8 +421,9 @@ session_start();
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template JS arquivos -->
+  <!-- JS arquivos -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/valida.js"></script>
 
 <!-- JS FAQ -->
   <script type="text/javascript">
