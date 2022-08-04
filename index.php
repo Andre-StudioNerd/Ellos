@@ -35,9 +35,10 @@ session_start();
 
 
    <!-- Jquery Arquivo-->
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
    
-   
-   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
@@ -96,10 +97,10 @@ session_start();
       
     <form action="../ellos/includes/cadastro.php" method="POST" class="form" name="form" id="form_contato">
   <label class="form_title">Faça sua reserva</label>
-  <p type="text"><input placeholder="Nome" id="txNome" value="" name="nome" value=""></input></p>
-  <p type="text"><input placeholder="E-mail" id="txEmail" value="" name="email" value=""></input></p>
-  <p type="text"><input placeholder="Telefone" id="txTelefone" value="" name="telefone" value=""></input></p>
-  <p type="text"><input placeholder="Mensagem" name="mensagem"></input></p>
+  <p type="text"><input placeholder="Nome" id="txNome"  required maxlength="60" value="" name="nome" value=""></input></p>
+  <p type="email"><input placeholder="E-mail" id="txEmail" required maxlength="60" value="" name="email" value=""></input></p>
+  <p type="text"><input placeholder="Telefone" id="txTelefone" required maxlength="20" value="" name="telefone" value=""></input></p>
+  <p type="text"><input placeholder="Mensagem" id="txMensagem" required maxlength="400" name="mensagem"></input></p>
   <button type="submit" id="enviar" name="enviar" value="Enviar">Enviar</button>
   
 </form>
@@ -431,6 +432,30 @@ session_start();
       $(".faq-plus").on('click',function(){
         $(this).parent().parent().find('.faq-body').slideToggle();
       });
+    </script>
+
+    <script>
+      $(document).ready(function(){
+	//Telefone
+	$("#txTelefone").mask("(99) 99999-9999");
+
+	//CEP
+	$("#cep").mask("99999-999");
+
+	//CPF
+	$("#cpf").mask("999.999.999-99");
+
+	//CNPJ
+	$("#cnpj").mask("99.999.999/9999-99");
+
+	//Data
+	$("#data").mask("99/99/9999");
+
+	//Dinheiro
+	$('#dinheiro1').mask('000.000.000.000.000,00' , { reverse : true});
+
+	$('#dinheiro2').mask("#.##0,00" , { reverse:true});
+});
     </script>
     
 </body>
