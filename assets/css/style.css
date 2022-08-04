@@ -158,15 +158,15 @@ h6 {
   .phone{
     background-color:#f8fbfd;
     color: #2f4d5a;
-    padding: 5px;
-    margin-bottom: 0px!important;
+    padding: 2px;
+    margin-bottom: 2px!important;
     border-radius:8px;
     
   }
 
   .phone a{
     margin-bottom: 0px!important;
-    font-size: 15px!important;
+    font-size: 10px!important;
   
   }
 }
