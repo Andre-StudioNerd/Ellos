@@ -99,7 +99,7 @@ session_start();
   <label class="form_title">Faça sua reserva</label>
   <p type="text"><input placeholder="Nome" id="txNome"  required maxlength="60" value="" name="nome" value=""></input></p>
   <p type="email"><input placeholder="E-mail" id="txEmail" required maxlength="60" value="" name="email" value=""></input></p>
-  <p type="text"><input placeholder="Telefone" id="txTelefone" required maxlength="20" value="" name="telefone" value=""></input></p>
+  <p type="tel"><input placeholder="Telefone" id="txTelefone" required maxlength="20" value="" name="telefone" value=""></input></p>
   <p type="text"><input placeholder="Mensagem" id="txMensagem" required maxlength="400" name="mensagem"></input></p>
   <button type="submit" id="enviar" name="enviar" value="Enviar">Enviar</button>
   
@@ -434,29 +434,7 @@ session_start();
       });
     </script>
 
-    <script>
-      $(document).ready(function(){
-	//Telefone
-	$("#txTelefone").mask("(99) 99999-9999");
-
-	//CEP
-	$("#cep").mask("99999-999");
-
-	//CPF
-	$("#cpf").mask("999.999.999-99");
-
-	//CNPJ
-	$("#cnpj").mask("99.999.999/9999-99");
-
-	//Data
-	$("#data").mask("99/99/9999");
-
-	//Dinheiro
-	$('#dinheiro1').mask('000.000.000.000.000,00' , { reverse : true});
-
-	$('#dinheiro2').mask("#.##0,00" , { reverse:true});
-});
-    </script>
+   
     
 </body>
 
