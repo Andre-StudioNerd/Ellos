@@ -39,7 +39,8 @@ session_start();
 
   <!-- CSS Arquivo-->
   <link href="assets/css/style.css" rel="stylesheet">
-
+  <!-- JS Arquivo-->
+  <script src="assets/js/valida_form.js" type="text/javascript"></script>
   
 </head>
 
@@ -87,13 +88,13 @@ session_start();
     <!-- ======= Cadastro form ======= -->
     <div class="col-xl-6">
       
-    <form action="../ellos/includes/cadastro.php" method="POST" class="form">
+    <form action="../ellos/includes/cadastro.php" method="POST" class="form" name="form" id="form">
   <label class="form_title">Faça sua reserva</label>
-  <p type="Name:"><input placeholder="Nome" name="nome"></input></p>
-  <p type="Email:"><input placeholder="E-mail" name="email"></input></p>
-  <p type="Phone:"><input placeholder="Telefone" name="telefone"></input></p>
-  <p type="Message:"><input placeholder="Mensagem" name="mensagem"></input></p>
-  <button type="submit">Enviar</button>
+  <p type="text"><input placeholder="Nome" id="txNome" value="" name="nome"></input></p>
+  <p type="text"><input placeholder="E-mail" id="txEmail" value="" name="email"></input></p>
+  <p type="text"><input placeholder="Telefone" id="txTelefone" value="" name="telefone"></input></p>
+  <p type="text"><input placeholder="Mensagem" name="mensagem"></input></p>
+  <button type="submit" id="enviar" name="enviar" value="Enviar">Enviar</button>
   
 </form>
     </div>
